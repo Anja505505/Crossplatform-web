@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #d546bf;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,32 @@
   to {
     transform: rotate(360deg);
   }
+}
+.submitButton {
+  background-color: #d546bf;
+  margin-top: 0rem;
+  color: rgba(113, 9, 142, 0.9);
+  border: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0.5rem 1.6rem;
+  border-radius: 2rem;
+  font-family: verdana;
+  box-shadow: 0 0.1rem 0.4rem -0.2rem rgba(0, 0, 0, 0.8);
+  transition: all 0.2s ease-in-out;
+  height: 51px;
+}
+.submitButton1 {
+  background-color: purple;
+  margin-top: 0rem;
+  color: white;
+  border: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0.5rem 1.6rem;
+  border-radius: 2rem;
+  font-family: verdana;
+  box-shadow: 0 0.1rem 0.4rem -0.2rem rgba(0, 0, 0, 0.8);
+  transition: all 0.2s ease-in-out;
+  height: 51px;
 }
